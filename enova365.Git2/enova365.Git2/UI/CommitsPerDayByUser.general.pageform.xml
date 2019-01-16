@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DataForm xmlns="http://www.enova.pl/schema/form.xsd" Priority="100">
+  <Page CaptionHtml="Średnia liczba komentarzy" DataContext="{DataSource}">
+    <Group CaptionHtml="Srednia liczba komentarzy na użytkownika dziennie">
+      <Row>
+        <Stack Width="*" Height="*">
+          <Grid EditValue="{GitData}" Width="150" Height="*">
+            <Field CaptionHtml="Nazwa urzytkownika" Width="25" EditValue="{User}"/>
+            <Field CaptionHtml="Data" Width="25" Class="RightAlign" EditValue="{Date}"/>
+            <Field CaptionHtml="Liczba commitów" Width="25" Class="RightAlign" EditValue="{Commits}" />
+          </Grid>
+        </Stack>
+      </Row>
+    </Group>
+  </Page>
+</DataForm>

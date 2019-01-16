@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<DataForm xmlns="http://www.enova.pl/schema/form.xsd" Priority="100">
+  <Page CaptionHtml="Git/Ustawienia Git" DataContext="{new GitRepositoryConfiguration}">
+    <Group CaptionHtml="Konfiguracja repozytorium">
+      <Field CaptionHtml="Link do repozytorium" LabelWidth="30" Width="50" EditValue="{repositoryUrl}"/>
+    </Group>
+  </Page>
+</DataForm>
